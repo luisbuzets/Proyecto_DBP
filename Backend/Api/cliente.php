@@ -5,8 +5,7 @@ include_once("../Class/class-clientes.php");
 include_once("../Class/class-persona.php");
 
 include_once("../Class/conexion.php");
-    cconexion::conexionDB();
-
+cconexion::conexionDB();
 
 //echo "metodo HTTP: ".$_SERVER['REQUEST_METHOD'];
 

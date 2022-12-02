@@ -6,7 +6,7 @@
         public static function conexionDB(){
 
             $host = "localhost";
-            $dbname = "gamestoreDB";
+            $dbname = "StoreGames";
             $username = "postgres";
             $password = "password";
             try{
@@ -22,9 +22,8 @@
             
             return $conn;
             }
+
             
-
-
 
 }
 

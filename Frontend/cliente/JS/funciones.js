@@ -42,7 +42,7 @@ function mostrarFactura (){
 // AXIOS para el cliente
 var clientes=[];
 var clienteSeleccionado;
-const url ='../../../Proyecto/Backend/Api/cliente.php';
+const url ='../../../Proyecto_DBP/Backend/Api/cliente.php';
 
 function obtenerClientes(){
 
@@ -101,6 +101,7 @@ function eliminar(indice){
 }).then(res=>{
     console.log(res.data);
     obtenerClientes();
+    document.getElementById('btn-delete').innerHTML = '<i class="fas fa-trash-alt"></i>';
 }).catch(error=>{
     console.error(error);
 });

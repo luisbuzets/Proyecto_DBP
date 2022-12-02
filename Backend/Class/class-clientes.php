@@ -12,8 +12,7 @@ CLass Cliente extends Persona{
         $this->idtaller = $idtaller;
 
 
-        
-
+    
     }
 
 
@@ -76,10 +75,6 @@ CLass Cliente extends Persona{
 
         return $this;
     }
-
-
-   
-
 
     public function guardarCliente(){
         $contenidoArchivo = file_get_contents("../Data/clientes.json");
@@ -144,11 +139,10 @@ CLass Cliente extends Persona{
         fclose($archivo);
      }
 
-
-
-
-
 }
+
+
+
 
 
 
