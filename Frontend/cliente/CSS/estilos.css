@@ -1,0 +1,195 @@
+body{
+    background: #eee;
+  
+
+}
+
+#side_nav{
+    background:  #000;
+    min-width: 250px;
+    max-width: 250px;
+}
+
+.content{
+    min-height: 100vh;
+    width: 100%;
+    margin: auto;
+}
+hr.h-color{
+    background: #eee;
+
+}
+
+/* los estilos dentro del sidebar  */
+.sidebar li.active{
+    background: #eee;
+    border-radius: 8px;
+}
+
+.sidebar li.active a, .sidebar li.active a:hover {
+color: #000;
+
+}
+
+
+.sidebar li a{
+    color: #fff;
+    position:relative ;
+}
+.card-header{
+    background: #cbbce5;
+}
+
+
+.card-body{
+    padding-bottom: 8vh;
+    background: #ece7f4;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+}
+
+#filabaja{
+    margin-top: 24px
+}
+
+#filabaja1{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#identidad{
+    margin-left: -110px;
+}
+
+#direccion{
+    margin-right: 100px;
+}
+
+#button1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 31px;
+    margin-left: 416px;
+    
+}
+
+.btn, .btn-secondary{
+ background: #8c67ce!important;
+ border-color: #8c67ce;
+ border-radius: 9px;
+ color: #fff;
+ font-weight:500;
+
+}
+
+#texto1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bold;
+   font-size: 115%;
+}
+
+#busq1{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    padding-left: 80px;
+    cursor: pointer;
+}
+#barra1{
+    margin-left: 40px;
+    width: 70vh;
+    
+}
+#search1{
+    width: 100px;
+    margin-left: 128px;
+    cursor: pointer;
+}
+
+#grip1{
+
+    margin-top: 25px;
+    padding: 7px;
+}
+
+.table ,.table-striped{
+    background: #ece7f4;
+    border-radius: 8px;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+    font-weight: 500;
+    text-align: left;
+
+
+
+}
+
+th{
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px;
+    
+
+}
+thead{
+    background-color: #673ab7;
+
+}
+#Editar1{
+    background: #2191ff!important;
+    border-color: #2191ff!important;
+    cursor: pointer;
+}
+#btn-Eliminar{
+    background: #db2721!important;
+    border-color: #db2721!important;
+    cursor: pointer;
+}
+ .btn-danger{
+    background: #db2721!important;
+    border-color: #db2721!important;
+
+}
+.btn-success{
+    background:  #198754!important;
+    border-color: #198754!important;
+}
+
+.content{
+    padding: 7px;
+}
+
+#CLIENTE{
+
+display: none;
+
+}
+.card{
+    background: #eee;
+    border: none;
+}
+
+
+#PRODUCTOS{
+
+    display: none;
+}
+#EMPLEADO{
+
+    display: none;
+}
+#FACTURA{
+
+    display: none;
+}
+
+.centrar {
+    text-align: center
+  }
+
+
+#Formulario{
+    background-color: #8c67ce;
+}
